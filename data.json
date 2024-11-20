@@ -1,0 +1,189 @@
+{
+  "TaxonomyAndEvolution": {
+    "ScientificName": "[Enter scientific name of the animal]",
+    "CommonNames": ["[Most common name]", "[Additional common names]"],
+    "Classification": {
+      "Kingdom": {
+        "ScientificName": "[Enter kingdom]",
+        "CommonName": "[Enter common name for kingdom]"
+      },
+      "Phylum": {
+        "ScientificName": "[Enter phylum]",
+        "CommonName": "[Enter common name for phylum]"
+      },
+      "Class": {
+        "ScientificName": "[Enter class]",
+        "CommonName": "[Enter common name for class]"
+      },
+      "Order": {
+        "ScientificName": "[Enter order]",
+        "CommonName": "[Enter common name for order]"
+      },
+      "Family": {
+        "ScientificName": "[Enter family]",
+        "CommonName": "[Enter common name for family]"
+      },
+      "Genus": {
+        "ScientificName": "[Enter genus]",
+        "CommonName": "[Enter common name for genus]"
+      },
+      "Species": "[Enter species]"
+    },
+    "EvolutionaryHistory": {
+      "Ancestors": "[Brief description of the animal's evolutionary ancestors]",
+      "KeyAdaptations": ["[List key evolutionary adaptations, such as specialized limbs or features]"],
+      "EndemicStatus": "[Indicate if the animal is endemic to specific regions, or enter 'None']"
+    },
+    "Discovery": {
+      "Discoverer": "[Name of discoverer, if known]",
+      "YearOfDiscovery": "[Year of discovery, as an integer]",
+      "LocationOfDiscovery": "[Location where the animal was first observed]"
+    }
+  },
+  
+  "PhysicalCharacteristics": {
+    "SizeAndWeight": {
+      "Length": "[Average length, with units, e.g., '10-15 cm']",
+      "Height": "[Average height, with units, e.g., '5-8 mm']",
+      "MaleWeight": "[Average weight for males, with units]",
+      "FemaleWeight": "[Average weight for females, with units]"
+    },
+    "PhysicalAdaptations": ["[List physical adaptations like camouflage, thick fur, etc.]"],
+    "Senses": [
+      {
+        "SenseType": "[Type of sense, e.g., 'vision', 'hearing']",
+        "Range": "[Range of this sense, if applicable]",
+        "Sensitivity": "[Sensitivity level or specific details, e.g., 'can see UV light']"
+      }
+    ],
+    "Locomotion": "[Describe mode of locomotion, e.g., 'bipedal', 'winged flight']",
+    "Coloration": "[Describe typical coloration or unique patterns]"
+  },
+
+  "LifeHistoryAndBehavior": {
+    "Lifespan": "[Average lifespan, with units, e.g., '10-15 years']",
+    "DailyLife": "[Describe typical daily activities, such as 'nocturnal foraging']",
+    "Diet": {
+      "Type": "[Type of diet, e.g., 'herbivore', 'carnivore']",
+      "FeedingHabits": "[Brief description of how the animal feeds, e.g., 'grazes on grass']",
+      "SeasonalPreferences": "[Describe any seasonal diet changes]",
+      "FoodAcquisition": "[How the animal acquires food, e.g., 'ambush predator']",
+      "EcosystemImpact": "[Describe the impact of the animal's diet on its ecosystem]"
+    },
+    "SocialBehavior": {
+      "SocialStructure": "[Describe social structure, e.g., 'packs, solitary']",
+      "Reproduction": {
+        "MatingHabits": "[Describe mating habits, e.g., 'monogamous']",
+        "GestationPeriod": "[Gestation period, with units]",
+        "OffspringCare": "[How the animal cares for its offspring]",
+        "BreedingSeason": "[Season or time period for breeding]",
+        "LitterSizeRange": "[Typical litter size range, e.g., '2-4 offspring']"
+      }
+    },
+    "SymbioticRelationships": [
+      {
+        "Species": "[Name of symbiotic species]",
+        "TypeOfRelationship": "[Type of symbiosis, e.g., 'mutualism']",
+        "Description": "[Description of how they interact]"
+      }
+    ]
+  },
+  
+  "HabitatAndDistribution": {
+    "NaturalHabitat": "[Describe natural habitat, e.g., 'tropical rainforest']",
+    "GeographicalRange": "[Geographical range or distribution, e.g., 'Sub-Saharan Africa']",
+    "HabitatAdaptations": ["[List adaptations to habitat, such as 'water storage in tissues']"]
+  },
+
+  "Conservation": {
+    "Status": "[Conservation status, e.g., 'Endangered']",
+    "Threats": {
+      "GeneralThreats": ["[List general threats, e.g., 'habitat loss', 'poaching']"],
+      "ClimateChangeImpact": "[Impact of climate change on the species]",
+      "HumanWildlifeConflict": "[Description of conflicts, e.g., 'crop raiding by herbivores']"
+    },
+    "Population": {
+      "Numbers": "[Estimated population size, if available]",
+      "Trends": "[Population trends, e.g., 'declining, stable']"
+    },
+    "ConservationEfforts": ["[List conservation efforts, such as 'protected reserves']"],
+    "ProtectionLaws": ["[List any specific legal protections, if applicable]"]
+  },
+  
+  "GeneticsAndPhysiology": {
+    "GenomeInformation": "[Brief overview of genome, if known]",
+    "GeneticDiversity": "[Description of genetic diversity within species]",
+    "InternalSystems": "[Details about unique internal systems, e.g., 'ruminant digestion']"
+  },
+  
+  "Ecology": {
+    "PredatorPreyRelationships": {
+      "Predators": ["[List known predators]"],
+      "Prey": ["[List typical prey]"],
+      "CompetitiveSpecies": ["[List species with which it competes]"]
+    },
+    "EnvironmentalImpact": "[Describe its impact on the environment, e.g., 'seed disperser']"
+  },
+
+  "Multimedia": {
+    "Images": ["[URLs of images]"],
+    "Videos": [
+      {
+        "URL": "[Video URL]",
+        "Transcript": "[Transcript of the video]"
+      }
+    ]
+  },
+
+  "InteractiveElements": {
+    "Quizzes": [
+      {
+        "Question": "[Quiz question]",
+        "Options": ["Option1", "Option2", "Option3"],
+        "Answer": "[Correct answer]"
+      }
+    ]
+  },
+
+  "UserEngagementAndAccessibility": {
+    "CommentsAndDiscussions": [
+      {
+        "ThreadID": "[Unique ID for the discussion thread]",
+        "Comment": "[User comment]"
+      }
+    ],
+    "UserGeneratedContent": "[Describe how users can contribute content]",
+    "Rating": "[User rating of information quality (1-5)]",
+    "Contests": [
+      {
+        "ContestName": "[Contest title]",
+        "Description": "[Contest description]"
+      }
+    ],
+    "CallsToAction": ["[List actions like 'learn more', 'join conservation efforts']"],
+    "LanguageOptions": ["[List available languages, e.g., 'English', 'Spanish']"],
+    "AccessibilityFeatures": {
+      "AlternativeText": ["[Alternative text for images]"],
+      "VideoCaption": "[Captions for videos]"
+    }
+  },
+
+  "FurtherExploration": {
+    "RelatedArticles": ["[URLs of related articles]"],
+    "ExternalResources": ["[URLs of external resources]"],
+    "FurtherReading": ["[Suggested readings or references]"]
+  },
+
+  "SEO": {
+    "Keywords": ["[Keywords for search optimization, e.g., 'endangered species']"],
+    "MetaDescription": "[Meta description for the animal's page]",
+    "InternalLinks": ["[URLs of internal links to related content]"],
+    "ExternalLinks": ["[URLs of external links to related resources]"]
+  },
+
+  "InterestingFacts": {
+    "UniqueTraits": ["[List unique traits, such as 'bioluminescence']"],
+    "CulturalSignificance": "[Description of cultural importance, myths, or symbolism]",
+    "FunFacts": ["[List fun facts, e.g., 'can survive for weeks without food']"]
+  }
+}
