@@ -1,9 +1,10 @@
 const { GoogleGenerativeAI, DynamicRetrievalMode } = require("@google/generative-ai");
 const fs = require('fs');
+const path = require('path');
 require('dotenv').config();
 const apikey = process.env.apikey; 
-const data = JSON.parse(fs.readFileSync('./data.json'));
-
+const dataFilePath = path.join(__dirname, 'data.json');
+const data = JSON.parse(fs.readFileSync(dataFilePath, 'utf8'));
 const genAI = new GoogleGenerativeAI(apikey);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-002" });
 // const model = genAI.getGenerativeModel(
